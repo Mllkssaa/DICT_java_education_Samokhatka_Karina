@@ -25,5 +25,12 @@ public class ChatBot {
 
         System.out.println("Your age is " + age + "! That's a good time to start programming! ");
 
+        System.out.println("Now I will prove to you that I can count to any number you want!");
+
+        int user_inp = scanner.nextInt();
+
+        for (int i = 0; i <= user_inp; i++) {
+            System.out.println(i + "!");
+        }
     }
 }
